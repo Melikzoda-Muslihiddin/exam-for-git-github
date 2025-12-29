@@ -11,9 +11,9 @@
 <body class="bg-black">
 
     <header>
-        <nav class="w-[80%] m-auto p-5 flex justify-between items-center">
+        <nav class="lg:w-[80%] m-auto p-5 flex justify-between items-center">
             <img src="./Logo (16).png" alt="">
-            <div class="flex gap-12 justify-center text-white">
+            <div class="lg:flex hidden gap-12 justify-center text-white">
                 <a href="./home.html">Home</a>
                 <a href="./services.html">Services</a>
                 <a href="./career.html">Careers</a>
@@ -25,22 +25,15 @@
     <section class="bg-black pt-20 px-4 pb-10">
         <div class="max-w-7xl mx-auto">
 
-            <div
-                class="bg-[#0c0c0c] border border-zinc-800 rounded-[50px] p-8 lg:p-20 relative overflow-hidden flex items-center justify-between gap-10">
+            <div class="bg-[#0c0c0c] border border-zinc-800 rounded-[50px] p-8 lg:p-20 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-10">
 
-                <div class="absolute inset-0 opacity-10 pointer-events-none"
-                    style="background-image: radial-gradient(#444 1px, transparent 1px); background-size: 30px 30px;">
+                <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#444 1px, transparent 1px); background-size: 30px 30px;">
                 </div>
 
                 <div class="relative z-10 max-w-xl">
                     <h1 class="text-4xl lg:text-6xl font-bold text-white mb-6">Contact Us</h1>
-                    <p class="text-zinc-400 text-lg mb-8 leading-relaxed">
-                        Get in touch with our team to discuss how we can help transform your business. We're here to
-                        help.
-                    </p>
-                    <button
-                        class="bg-[#0080ff] hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-2xl transition shadow-lg shadow-blue-500/20">
-                        Get In Touch Now </button>
+                    <p class="text-zinc-400 text-lg mb-8 leading-relaxed"> Get in touch with our team to discuss how we can help transform your business. We're here to help. </p>
+                    <button class="bg-[#0080ff] hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-2xl transition shadow-lg shadow-blue-500/20"> Get In Touch Now </button>
                 </div>
                 <div class="relative z-10">
                     <img src="./calogo1 2 (1).png" alt="" class="w-64 lg:w-96 h-auto object-contain">
@@ -168,7 +161,7 @@
                     <img src="./Logo (16).png" alt="Logo" class="h-12">
                 </div>
 
-                <nav class="flex flex-wrap gap-8 text-gray-400">
+                <nav class="flex flex-col lg:flex-row items-center m-auto gap-8 text-gray-400 ">
                     <a href="./home.html" class="hover:text-white transition">Home</a>
                     <a href="./services.html" class="hover:text-white transition">Services</a>
                     <a href="./contact.html" class="hover:text-white transition">Portfolio</a>
@@ -176,7 +169,7 @@
                     <a href="./career.html" class="hover:text-white transition">Careers</a>
                 </nav>
 
-                <div class="flex gap-4 p-3 bg-zinc-900/50 border border-zinc-800 rounded-2xl shadow-lg">
+                <div class="flex gap-4 p-3 bg-zinc-900/50 border border-zinc-800 rounded-2xl shadow-lg m-auto">
                     <img src="./Sub Container.png" alt="">
                 </div>
             </div>
